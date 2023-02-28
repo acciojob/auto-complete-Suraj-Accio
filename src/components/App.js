@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-const App = ({ suggestions }) => {
+const App = () => {
+  const suggestions = ["apple", "banana", "cherry", "date", "elderberry", "fig"]
   const [query, setQuery] = useState("");
   const [filteredSuggestions, setFilteredSuggestions] = useState([]);
 
